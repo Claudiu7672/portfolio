@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Seo from "../components/Seo"
+import { SEO } from "../components/Seo"
 
 const Error = () => {
   return (
@@ -18,3 +18,5 @@ const Error = () => {
 }
 
 export default Error
+
+export const Head = () => <SEO title="Not Found" />

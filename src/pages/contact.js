@@ -1,5 +1,5 @@
 import React from "react"
-import Seo from "../components/Seo"
+import { SEO } from "../components/Seo"
 
 const Contact = () => {
   return (
@@ -39,3 +39,5 @@ const Contact = () => {
 }
 
 export default Contact
+
+export const Head = () => <SEO title="Contact" />

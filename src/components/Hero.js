@@ -8,11 +8,11 @@ const Hero = () => {
     <header className="hero">
       <section className="section-center hero-center">
         <article className="hero-info">
-          <div>
+          <div className="hero-info-center">
             <div className="underline"></div>
             <h1>I'm Claudiu</h1>
             <h4>Fullstack Web Developer</h4>
-            <Link to="/contact" className="btn">
+            <Link to="/contact" className="btn center-btn hero-btn">
               contact me
             </Link>
             <div className="social-links">

@@ -4,6 +4,7 @@ import Hero from "../components/Hero"
 import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
+import { SEO } from "../components/seo"
 
 const IndexPage = ({ data }) => {
   const {
@@ -49,3 +50,5 @@ export const query = graphql`
 `
 
 export default IndexPage
+
+export const Head = () => <SEO title="Home" />

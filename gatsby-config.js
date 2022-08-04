@@ -17,6 +17,14 @@ const strapiConfig = {
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Webdev portfolio`,
+    description: `WebDev Portfolio built with Gatsby and Strapi`,
+    titleTemplate: `%s | Webdev Portfolio`,
+    twitterUsername: `@Claudiufpopa`,
+    image: "/mainImg.png",
+    siteUrl: `https://elaborate-tulumba-a4d7f3.netlify.app`,
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -28,7 +36,6 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-strapi`,
       options: strapiConfig,

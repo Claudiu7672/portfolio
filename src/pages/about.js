@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Title from "../components/Title"
-import Seo from "../components/Seo"
+import { SEO } from "../components/Seo"
 
 const About = ({ data }) => {
   const {
@@ -50,3 +50,5 @@ export const query = graphql`
 `
 
 export default About
+
+export const Head = () => <SEO title="About" />
