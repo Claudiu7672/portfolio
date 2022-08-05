@@ -12,7 +12,11 @@ const ProjectsPage = ({
     <>
       <main>
         <section className="projects-page">
-          <Projects className="all projects" projects={projects} />
+          <Projects
+            className="all projects"
+            projects={projects}
+            title="my projects"
+          />
         </section>
       </main>
     </>

@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Hero from "../components/Hero"
 import Services from "../components/Services"
 import Jobs from "../components/Jobs"
-import Projects from "../components/Projects"
+import ProjectsHome from "../components/ProjectsHome"
 import { SEO } from "../components/seo"
 
 const IndexPage = ({ data }) => {
@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => {
         <Hero />
         <Services />
         <Jobs />
-        <Projects title="latest works" showLink projects={projects} />
+        <ProjectsHome title="latest works" showLink projects={projects} />
       </main>
     </>
   )
