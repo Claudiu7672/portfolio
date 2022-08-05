@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => {
         <Hero />
         <Services />
         <Jobs />
-        <Projects title="featured projects" showLink projects={projects} />
+        <Projects title="latest works" showLink projects={projects} />
       </main>
     </>
   )
@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    allStrapiProject(filter: { featured: { eq: true } }) {
+    allStrapiProject {
       nodes {
         description
         featured
