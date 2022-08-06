@@ -29,10 +29,10 @@ Variables
   --clr-primary-8: hsl(184, 80%, 74%);
   --clr-primary-9: hsl(185, 94%, 87%);
   --clr-primary-10: hsl(186, 100%, 94%);
-  --color-primary-6: #53294d;
-  --color-primary-7: #61305a;
-  --color-primary-8: #6e3767;
-  --color-primary-9: #7c3e74;
+  --color-primary-6: #96588e;
+  --color-primary-7: #a16a9a;
+  --color-primary-8: #ad7da7;
+  --color-primary-9: #c5a2c0;
   --color-primary-10: #f3ecf2;
   /* dark shades of secondary color*/
   --color-secondary-3: #c78620;
@@ -40,6 +40,7 @@ Variables
   --color-secondary-5: #f9a728;
   /* lighter shades of secondary color*/
   --color-secondary-6: #fab03e;
+  --color-secondary-7: #fbca7e;
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-3: hsl(209, 34%, 30%);
@@ -301,6 +302,18 @@ Navbar
     background: transparent;
   }
 }
+
+/* fixed navbar */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--clr-white);
+  z-index: 2;
+  box-shadow: var(--light-shadow);
+}
+
 /*
 =============== 
 Sidebar
@@ -945,13 +958,14 @@ Footer
 
 .footer h4 {
   margin-top: 0.5rem;
-  color: var(--color-secondary-5);
+  color: var(--color-primary-9);
   font-weight: lighter;
+  font-size: 0.8rem;
   text-transform: capitalize;
 }
 
 .footer h4 span {
-  color: var(--color-secondary-5);
+  color: var(--color-primary-9);
 }
 
 .footer-links {
@@ -959,7 +973,7 @@ Footer
 }
 
 .footer .social-link {
-  color: var(--color-secondary-4);
+  color: var(--color-primary-8);
 }
 
 .footer .social-link:hover {

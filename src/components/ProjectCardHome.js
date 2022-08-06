@@ -2,7 +2,6 @@ import React from "react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const ProjectCardHome = ({ title, image, index, slug }) => {
-  console.log(index, title)
   return (
     <a href={`/projects/${slug}`} className={`project-${index}`}>
       <article className="project">
