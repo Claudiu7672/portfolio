@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Title from "../components/Title"
 import { SEO } from "../components/Seo"
+import about from "../assets/images/about.svg"
 
 const About = ({ data }) => {
   const {
@@ -12,7 +13,8 @@ const About = ({ data }) => {
       <section className="about-page">
         <div className="section-center about-center">
           <img
-            src={image[0].localFile.publicURL}
+            // src={image[0].localFile.publicURL}
+            src={about}
             alt={title}
             className="about-img-svg"
           />
