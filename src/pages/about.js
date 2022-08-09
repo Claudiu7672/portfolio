@@ -2,7 +2,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import Title from "../components/Title"
 import { SEO } from "../components/Seo"
-import about from "../assets/images/about.svg"
 
 const About = ({ data }) => {
   const {
@@ -11,21 +10,20 @@ const About = ({ data }) => {
   return (
     <>
       <section className="about-page">
+        <Title title={title} className="about-title" />
         <div className="section-center about-center">
           <img
-            // src={image[0].localFile.publicURL}
-            src={about}
+            src={image[0].localFile.publicURL}
             alt={title}
             className="about-img-svg"
           />
           <article className="about-text">
-            <Title title={title} />
             <p>{info}</p>
-            <div className="about-stack">
+            {/* <div className="about-stack">
               {stack.map(item => {
                 return <span key={item.id}>{item.title}</span>
               })}
-            </div>
+            </div> */}
           </article>
         </div>
       </section>

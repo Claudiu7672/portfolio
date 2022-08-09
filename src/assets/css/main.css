@@ -1053,13 +1053,13 @@ About Page
 
 .about-text .section-title {
   margin-bottom: 2rem;
-  text-align: left;
+  text-align: center;
 }
 
-.about-text .underline {
+/* .about-text .underline {
   margin-left: 0;
   margin-right: 0;
-}
+} */
 
 .about-text p {
   line-height: 2;
@@ -1103,6 +1103,7 @@ About Page
 
   .about-text {
     grid-column: 6 / -1;
+    padding-bottom: 5rem;
   }
 }
 
