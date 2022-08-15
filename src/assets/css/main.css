@@ -741,7 +741,7 @@ Jobs
 
 .btn-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 4rem;

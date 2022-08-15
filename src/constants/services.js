@@ -5,7 +5,7 @@ const services = [
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `Bringing streamlined and in the same time authentic web applications into life, using cutting edge technologies like React, Node.js, MongoDB and GraphQL`,
   },
   {
     id: 2,
