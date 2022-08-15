@@ -1,5 +1,7 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaCode, FaSketch } from "react-icons/fa"
+import { GrShieldSecurity } from "react-icons/gr"
+
 const services = [
   {
     id: 1,
@@ -11,13 +13,13 @@ const services = [
     id: 2,
     icon: <FaSketch className="service-icon" />,
     title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `Designing personalities for web applications. Every web app has a personality that, in the end, is an expression of my client’s vision.`,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <GrShieldSecurity className="service-icon" />,
+    title: "security",
+    text: `I use my experience as a cybersecurity engineer when building and testing web applications, thus making them less prone to attack.`,
   },
 ]
 
