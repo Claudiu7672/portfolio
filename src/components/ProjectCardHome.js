@@ -3,7 +3,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const ProjectCardHome = ({ title, image, index, slug }) => {
   return (
-    <a href={`/projects/${slug}`} className={`project-${index}`}>
+    <a href="/projects" className={`project-${index}`}>
       <article className="project">
         <GatsbyImage
           image={getImage(image.localFile)}
